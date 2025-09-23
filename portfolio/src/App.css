@@ -102,6 +102,8 @@ header {
     background-color: black;
     padding: 20px;
     width: 200px;
+    color: white;
+    font-weight: 600;
 }
 
 .menu ul {
