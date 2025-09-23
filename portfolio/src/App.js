@@ -1,6 +1,6 @@
 import './App.css';
 import Leisure from './Leisure';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
               <ul>
                   <li><a href="default.html">Herkunft</a></li>
                   <li><a href="Lebenslauf.html">Lebenslauf</a></li>
-                  <li> <Link to="/leisure">Leisure</Link> </li>
+                  <li> <NavLink to="/leisure" className={({ isActive }) => isActive ? "active": ""}>Leisure</NavLink> </li>
                   <li><a href="Interessen.html">Interessen</a></li>
               </ul>
           </nav>

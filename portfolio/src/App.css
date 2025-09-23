@@ -106,24 +106,33 @@ header {
     font-weight: 600;
 }
 
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+    }
 
-.menu ul li {
-    margin-bottom: 10px;
-}
+    .menu ul li {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
 
-.menu ul li a {
-    color: white;
-    text-decoration: none;
-}
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        
+    }
 
-.menu ul li a:hover {
-    color: #4CAF50;
-}
+    .menu ul li a:hover {
+        color: #4CAF50;
+        width: 200px;
+    }
+
+    .menu ul li .active {
+      color: black;
+      background-color: white;
+    }
 
 .content {
     flex: 1;
