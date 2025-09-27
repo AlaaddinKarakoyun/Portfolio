@@ -7,8 +7,13 @@ export function Contact()
         <div className="ContactPage">
             <div className='ContactForm'>
                 <div className='ContactTitle'>Contact Form</div>
-                <div className='ContactLabel'>Your name:</div>
-                <input />
+                <div className='ContactLabel'>Your E-Mail:</div>
+                <input className='ContactInput'/>
+
+                <div className='ContactLabel'>Message:</div>
+                <input className='ContactInput'/>
+
+            
             </div>
         </div>
     )
