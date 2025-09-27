@@ -1,0 +1,16 @@
+.ContactPage{
+    background-color: greenyellow;
+    width: 100%;
+}
+
+.ContactForm{
+    width: 50%;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ContactTitle{
+    font-size: 40px;
+    font-weight: 600;
+}

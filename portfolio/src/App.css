@@ -96,6 +96,7 @@ header {
 
 .content-wrapper{
   height: 100%;
+  display: flex;
 }
 
 .menu {
@@ -104,7 +105,7 @@ header {
     width: 200px;
     color: white;
     font-weight: 600;
-    height: 100%;
+    height: 100vh;
 }
 
     .menu ul {
@@ -112,23 +113,22 @@ header {
         list-style: none;
         margin: 0;
         padding: 0;
-        width: 300px;
     }
 
     .menu ul li {
-        padding-bottom: 5px;
-        padding-top: 5px;
+        padding-bottom: 10px 10px;
+        padding-top: 10px 10px;
     }
 
     .menu ul li a {
         color: white;
         text-decoration: none;
-        
+        display: block;
+        padding: 10px 15px;
     }
 
     .menu ul li a:hover {
         color: #4CAF50;
-        width: 200px;
     }
 
     .menu ul li .active {
