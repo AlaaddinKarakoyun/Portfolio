@@ -5,7 +5,7 @@ export function Imprint()
 
     return (
         <div>
-            IMPRINT YARRR
+           
         </div>
     )
 }

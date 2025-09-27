@@ -5,7 +5,7 @@ export function Aboutme()
 
     return (
         <div>
-            hamham
+           
         </div>
     )
 }

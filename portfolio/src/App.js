@@ -6,15 +6,19 @@ import Interests from './Interests';
 import Contact from './Contact';
 import Aboutme from './Aboutme';
 import Imprint from './Imprint';
+import SelfImage from './img/Veraltet_Alaaddi_Bewerbungsfoto.jpg';
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 
 function App() {
+
+  const SelfImage = require('./img/Veraltet_Alaaddi_Bewerbungsfoto.jpg');
+
   return (
     <div>
       <header>
           <div class="header-content">
               <h1>Alaaddin Talha Karakoyun</h1>
-              <img src="Picture/Alaaddi_Bewerbungsfoto.jpg" alt="My picture"/>
+              <img src={SelfImage} alt="My picture"/>
           </div>
       </header>
       <Router>
@@ -45,7 +49,7 @@ function App() {
           </Routes>
           </div>
         </Router>
-
+        
     </div>
     
   );

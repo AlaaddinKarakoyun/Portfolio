@@ -94,6 +94,10 @@ header {
     background-color: #575757;
 }
 
+.content-wrapper{
+  height: 100%;
+}
+
 .menu {
     background-color: black;
     padding: 20px;
